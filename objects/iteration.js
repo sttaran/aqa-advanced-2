@@ -5,16 +5,16 @@
 // }
 
 const users = {
-    user1 : {
-        age: 22,
-        name: "Peter",
-        isStudent: false
-    },
-    user2: {
-        age: 25,
-        name: "Alice",
-        isStudent: true
-    }
+  user1: {
+    age: 22,
+    name: 'Peter',
+    isStudent: false
+  },
+  user2: {
+    age: 25,
+    name: 'Alice',
+    isStudent: true
+  }
 }
 
 /*
@@ -31,7 +31,7 @@ for (const userKey in user) {
 // }
 
 // console.log(Object.entries(users))
-//-----------------------------------------------------------------------
+// -----------------------------------------------------------------------
 // const animal = {
 //     legs: 4,
 // };
@@ -47,12 +47,12 @@ for (const userKey in user) {
 // console.log("hasOwnProperty name", Object.hasOwnProperty("name"))
 
 const people = [
-    { name: "John", age: 30 },
-    { name: "Jane", age: 25 },
-    { name: "Mike", age: 40 }
-];
+  { name: 'John', age: 30 },
+  { name: 'Jane', age: 25 },
+  { name: 'Mike', age: 40 }
+]
 
-console.log(people[0]); // { name: "John", age: 30 }
-people.push({ name: "Anna", age: 28 });
+console.log(people[0]) // { name: "John", age: 30 }
+people.push({ name: 'Anna', age: 28 })
 
 console.log(people)

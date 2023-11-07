@@ -22,10 +22,10 @@
 // counter2()
 // counter()
 
-function multiplier(factor) {
-    return function(x) {
-        return x * factor;
-    };
+function multiplier (factor) {
+  return function (x) {
+    return x * factor
+  }
 }
 
 const double = multiplier(2)

@@ -61,16 +61,15 @@
 
 // short name
 
-const brand = "Audi"
-const model = "A6"
+const brand = 'Audi'
+const model = 'A6'
 
 const car = {
-    brand,
-    model,
+  brand,
+  model
 }
 
 // const car = {
 //     brand: brand,
 //     model: model,
 // }
-

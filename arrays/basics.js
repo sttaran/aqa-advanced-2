@@ -1,4 +1,4 @@
-const list = [1,2, "llll", true, {name: "Alice"}, ["Joe", "Peter", ["Hello"]]]
+const list = [1, 2, 'llll', true, { name: 'Alice' }, ['Joe', 'Peter', ['Hello']]]
 
 //
 // console.log(list[0])

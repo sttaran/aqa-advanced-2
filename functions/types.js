@@ -21,7 +21,6 @@
 // console.log(calculateSumArrow(2,3))
 // console.log(calculateSumPreciseArrow(2,8))
 
-
 // console.log(calculateSumDeclaration(1,2))
 //
 // function calculateSumDeclaration(num1, num2){
@@ -42,4 +41,3 @@
 //     }
 // }
 // user.printName()
-

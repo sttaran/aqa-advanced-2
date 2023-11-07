@@ -9,8 +9,6 @@
 // console.log("a", a)
 // console.log("b", b)
 
-
-
 // reference type
 
 // const array1 = ["Hello", "World"]
@@ -43,14 +41,13 @@ const ageList = [25, 34, 32]
 //     console.log("Inside the function", ages)
 // }
 
-function foo(ages){
-    // const agesList = Array.from(ages)
-    const agesList = [...ages]
-    agesList[0] = 18
-    console.log("Inside the function", agesList)
+function foo (ages) {
+  // const agesList = Array.from(ages)
+  const agesList = [...ages]
+  agesList[0] = 18
+  console.log('Inside the function', agesList)
 }
 
-console.log("Outside the function before", ageList)
+console.log('Outside the function before', ageList)
 foo(ageList)
-console.log("Outside the function after", ageList)
-
+console.log('Outside the function after', ageList)

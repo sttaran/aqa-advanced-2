@@ -1,4 +1,3 @@
-
 // class BankAccount {
 //     constructor(balance) {
 //         this.balance = balance;
@@ -54,19 +53,19 @@
 // console.log(myEBankAccount.printBalance())
 
 class BankAccount {
-    constructor(balance) {
-        this._balance = balance
-    }
+  constructor (balance) {
+    this._balance = balance
+  }
 }
 
-class EBankAccount extends BankAccount{
-    constructor(balance) {
-        super(balance);
-    }
+class EBankAccount extends BankAccount {
+  constructor (balance) {
+    super(balance)
+  }
 
-    printBalance() {
-        console.log(this._balance)
-    }
+  printBalance () {
+    console.log(this._balance)
+  }
 }
 
 const myEBankAccount = new EBankAccount(25666)

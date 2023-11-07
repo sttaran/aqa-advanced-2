@@ -17,16 +17,15 @@
 //
 // printHello()
 
-function calculateSum(num1, num2){
-    const sum = num1 + num2
-    console.log("HELLLO!!!!!!")
-    return sum
+function calculateSum (num1, num2) {
+  const sum = num1 + num2
+  console.log('HELLLO!!!!!!')
+  return sum
 
-    // return undefined
-    // return
+  // return undefined
+  // return
 }
 //
-const sum = calculateSum(2,4)
+const sum = calculateSum(2, 4)
 // const sum = 6
 console.log(sum)
-

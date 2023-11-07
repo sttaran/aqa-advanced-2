@@ -30,13 +30,12 @@
 
 // printName()
 
-function foo(){
-
-    if(true){
-        const age = 19;
-        console.log(age)
-    }
-
+function foo () {
+  if (true) {
+    const age = 19
     console.log(age)
+  }
+
+  console.log(age)
 }
 foo()

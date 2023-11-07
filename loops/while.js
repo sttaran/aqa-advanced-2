@@ -30,12 +30,11 @@ let index = 10
 //     index--
 // }
 
+while (index > 0) {
+  if (index % 2 !== 0) {
+    break
+  }
 
-while (index > 0){
-    if(index % 2 !== 0) {
-        break
-    }
-
-    console.log(`Index: ${index}`)
-    index--
+  console.log(`Index: ${index}`)
+  index--
 }

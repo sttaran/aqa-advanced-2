@@ -7,13 +7,12 @@
 // const backtick = `${name} Welcome to the world of programming!`;
 // console.log(backtick)
 
-
 // const text = "JavaScriptnldsifhoasidfp9hzgdf;oihasd;9p8fyp98ads;of'pih8ygsdp87ftsdypfjohsr;iughMsdfsdfsd";
 // console.log(text.length)
 // console.log(text.length[1])
 // const length = text.length
 // console.log(length)
-                // 90 - 1 -> 89
+// 90 - 1 -> 89
 // console.log(text[length-1])
 
 // const firstText = "Hello"
@@ -23,7 +22,7 @@
 // const resultText2 = `${firstText} ${secondText}`
 // console.log(resultText2)
 
-const name = "Alice";
+const name = 'Alice'
 // console.log(name.length)
 //
 // const name2 = name.repeat(2)
@@ -37,7 +36,6 @@ const name = "Alice";
 // console.log(expr)
 // console.log(name.includes(expr))
 
-
 /*
 `false`, `0`, `null`, `undefined`, `NaN`, ''
 * */
@@ -47,10 +45,10 @@ const name = "Alice";
 // console.log("a" || ("A" || "b") || "B")
 // console.log("a" || "b" || "B")
 // console.log("a" || "B")
-            //65   //97
+// 65   //97
 // console.log(name.replace("e", "y"))
 // console.log(name.replaceAll("e", "y"))
 
-const text = "hello my user"
+const text = 'hello my user'
 
-console.log("OlOLOL".toLowerCase() === "oLoLol".toLowerCase())
+console.log('OlOLOL'.toLowerCase() === 'oLoLol'.toLowerCase())

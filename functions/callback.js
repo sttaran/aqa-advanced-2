@@ -52,20 +52,19 @@
 // process(cardNumber)
 // process(cardNumber2)
 
-
-function readFile(onSuccess, onFailure){
-    try {
-        const ms = Date.now()
-        console.log(ms)
-        if (ms % 2 !== 0) throw new Error("Something went wrong")
-        onSuccess()
-    }catch (e) {
-        console.log(e.message)
-        onFailure()
-    }
+function readFile (onSuccess, onFailure) {
+  try {
+    const ms = Date.now()
+    console.log(ms)
+    if (ms % 2 !== 0) throw new Error('Something went wrong')
+    onSuccess()
+  } catch (e) {
+    console.log(e.message)
+    onFailure()
+  }
 }
 
-const onSuccess = ()=> console.log("SUCCESS")
-const onError = ()=> console.log("ERROR HAPPENED")
+const onSuccess = () => console.log('SUCCESS')
+const onError = () => console.log('ERROR HAPPENED')
 
 readFile(onSuccess, onError)

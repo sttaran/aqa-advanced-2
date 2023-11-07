@@ -10,7 +10,6 @@
 // null undefined
 // console.log(false ?? 1)
 
-
 // console.log(0 || false)
 
 // const car = {
@@ -29,10 +28,10 @@
 //     console.log(model)
 // }
 
-const defaultUserName = "Anonymous"
+const defaultUserName = 'Anonymous'
 
 const user = {
-    name: "Stanislav"
+  name: 'Stanislav'
 }
 
 console.log(user.username ?? defaultUserName)

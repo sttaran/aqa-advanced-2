@@ -19,18 +19,18 @@
 // console.log(evenNumbers)
 
 const users = [
-    {
-        name: "Joe",
-        age: 12
-    },
-    {
-        name: "Alice",
-        age: 22
-    },
-    {
-        name: "Peter",
-        age: 38
-    }
+  {
+    name: 'Joe',
+    age: 12
+  },
+  {
+    name: 'Alice',
+    age: 22
+  },
+  {
+    name: 'Peter',
+    age: 38
+  }
 ]
 //
 // const adultUsers = users.filter((user)=> user.age >= 18)
@@ -50,12 +50,12 @@ const users = [
 // fruits.sort((a, b) => a.localeCompare(b));
 // console.log(fruits)
 
-const numbers = [1, 2, 3, 4, 5];
+const numbers = [1, 2, 3, 4, 5]
 // const sum = numbers.reduce((acc, number)=>{
 //     acc = acc + number
 //     return acc
 // })
 
-const sum = numbers.reduce((acc, number)=> acc + number)
+const sum = numbers.reduce((acc, number) => acc + number)
 // const sum = numbers.reduce((acc, number)=> acc + number, 10)
 console.log(sum)

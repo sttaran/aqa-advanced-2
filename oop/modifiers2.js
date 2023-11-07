@@ -1,15 +1,15 @@
 Math.PI
 
 class MyMath {
-    constructor() {
-        this.message = "I am available from instances only"
-    }
+  constructor () {
+    this.message = 'I am available from instances only'
+  }
 
-    static PI = 3.14
+  static PI = 3.14
 
-    static sum(num1, num2){
-        return num1 + num2
-    }
+  static sum (num1, num2) {
+    return num1 + num2
+  }
 }
 
 // console.log(Math.PI)
@@ -25,11 +25,10 @@ class MyMath {
 
 // console.log(MyMath.message)
 
-
 class TimeUtils {
-    static formatDate(date){
-        return date.toGMTString()
-    }
+  static formatDate (date) {
+    return date.toGMTString()
+  }
 }
 
 const date = new Date()
