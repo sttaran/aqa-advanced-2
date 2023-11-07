@@ -1,0 +1,12 @@
+{
+  "name": "aqa-advanced-2",
+  "version": "1.0.0",
+  "description": "AQA with js group",
+  "main": "test.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
