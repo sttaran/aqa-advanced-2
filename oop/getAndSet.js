@@ -1,25 +1,25 @@
 class Temperature {
-    #ceslsius
+  #ceslsius
 
-    constructor(celsius) {
-        this.#ceslsius = celsius
-    }
+  constructor (celsius) {
+    this.#ceslsius = celsius
+  }
 
-    get celsius(){
-        return this.#ceslsius
-    }
+  get celsius () {
+    return this.#ceslsius
+  }
 
-    get fahrenheit() {
-        return this.#ceslsius * 9 / 5 + 32;
-    }
+  get fahrenheit () {
+    return this.#ceslsius * 9 / 5 + 32
+  }
 
-    set celsius(celsius){
-        if (celsius < -273.15) {
-            console.log("Temperature below absolute zero is not possible.");
-            return;
-        }
-        this.#ceslsius = celsius
+  set celsius (celsius) {
+    if (celsius < -273.15) {
+      console.log('Temperature below absolute zero is not possible.')
+      return
     }
+    this.#ceslsius = celsius
+  }
 }
 
 const temp = new Temperature(28)

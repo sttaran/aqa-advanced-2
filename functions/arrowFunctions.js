@@ -29,8 +29,8 @@
 // foo(1,2,3)
 
 const bar = (num1, num2, ...rest) => {
-    console.log(num1, num2)
-    console.log(rest)
+  console.log(num1, num2)
+  console.log(rest)
 }
 
-bar(1,2,3, "hello", true)
+bar(1, 2, 3, 'hello', true)

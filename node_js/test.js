@@ -7,6 +7,6 @@ export default age
 //     age
 // }
 
-export function print(text){
-    console.log(text)
+export function print (text) {
+  console.log(text)
 }

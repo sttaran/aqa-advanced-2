@@ -36,7 +36,7 @@
 // // const arr3 = arr2.concat([])
 // console.log(arr3)
 
-//slice
+// slice
 // const numbers = [1, 2, 3, 4, 5];
 // const slicedArray = numbers.slice(0, 3);
 // console.log(slicedArray)
@@ -53,4 +53,3 @@
 // // colors.splice(1,1)
 // colors.splice(2, 1, "оранжевий")
 // console.log(colors);
-

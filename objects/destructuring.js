@@ -51,7 +51,6 @@
 // console.log(ololo)
 // console.log(numbers)
 
-
 // const numbers = [1, 2, 3, 4];
 // const [first,,,fourth] = numbers
 //

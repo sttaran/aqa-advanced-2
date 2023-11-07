@@ -1,5 +1,5 @@
 (
-    function (){
-        console.log("HELLO FROM IIFE!!!")
-    }
+  function () {
+    console.log('HELLO FROM IIFE!!!')
+  }
 )()

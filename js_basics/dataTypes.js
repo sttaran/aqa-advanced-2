@@ -10,7 +10,7 @@ const percent = 12.5
 const bigNum = 12n
 
 // String
-const name1 = "Alice"
+const name1 = 'Alice'
 const name2 = 'Bob'
 const text = `${name1} & ${name2}`
 
@@ -28,10 +28,9 @@ const something2 = undefined
 console.log(something)
 
 // null
-let nullable = null
-
+const nullable = null
 
 //
-const streetName  = "Майдан незалежності"
-const buildingNumber  = "1-a"
+const streetName = 'Майдан незалежності'
+const buildingNumber = '1-a'
 console.log(`${streetName}, ${buildingNumber}`)

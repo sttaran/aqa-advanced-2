@@ -33,9 +33,9 @@
 // console.log(car)
 // console.log(car2)
 
-const greet = (name, ...args) =>{
-    console.log(name)
-    console.log(args)
+const greet = (name, ...args) => {
+  console.log(name)
+  console.log(args)
 }
 
-greet("Stas", 1, true)
+greet('Stas', 1, true)

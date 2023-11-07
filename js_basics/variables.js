@@ -1,4 +1,3 @@
-
 // VARIABLES
 
 // const age = 18
@@ -10,7 +9,6 @@
 // var topic = "JS Basics"
 // topic = "ololo"
 // console.log(topic)
-
 
 // YOUR CODE BEFORE
 // console.log(name)
@@ -24,7 +22,6 @@
 //
 // name = "Joe"
 
-
 // const age = 12;
 // let age2;
 //
@@ -33,7 +30,7 @@
 // NAMING
 // CAMEL CASE
 const personAge = 23
-const streetName = "Central";
+const streetName = 'Central'
 const ADULT_AGE = 18
 
 // SNAKE CASE

@@ -4,8 +4,8 @@
 *  NOT - !
 * */
 
-const isSunny = true;
-const isWarm = false;
+const isSunny = true
+const isWarm = false
 
 // console.log(isSunny && isWarm) // false
 // console.log(isSunny || isWarm) // true
